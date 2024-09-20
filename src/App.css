@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* Default Light Mode */
+.light {
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode */
+.dark {
+  background-color: #1a202c;
+  color: white;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
